@@ -4800,19 +4800,6 @@ a.close.disabled {
   border-radius: 0.3rem;
   outline: 0; }
 
-.modal-backdrop {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1040;
-  width: 100vw;
-  height: 100vh;
-  background-color: #000; }
-  .modal-backdrop.fade {
-    opacity: 0; }
-  .modal-backdrop.show {
-    opacity: 0.5; }
-
 .modal-header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -8118,7 +8105,9 @@ a.text-dark:hover, a.text-dark:focus {
   @page {
     size: a3; }
   body {
-    min-width: 992px !important; }
+    min-width: 992px !important;
+    background-color: #a2c3d6;
+  }
   .container {
     min-width: 992px !important; }
   .navbar {
@@ -8643,7 +8632,7 @@ h1, h2, h3, h4, h5,
 .ftco-about .img-about {
   width: 100%;
   z-index: 0;
-  position: relative; }
+  position: relative;}
   .ftco-about .img-about .img {
     display: block;
     width: 100%;
